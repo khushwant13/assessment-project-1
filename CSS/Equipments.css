@@ -1,11 +1,11 @@
 @font-face{
     font-family: 'NeusHaas';
-    src: url(/Fonts/NeueHaasDisplay-Light.ttf);
+    src: url(../Fonts/NeueHaasDisplay-Light.ttf);
 }
 body{
     margin: 0;
     padding: 0;
-    background-image: url(/Images/Black.jpg);
+    background-image: url(../Images/Black.jpg);
     font-family: NeusHaas;
     color: white;
 }
