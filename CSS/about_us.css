@@ -58,7 +58,7 @@ body{
     background-color: #f1f1f1;
 }
 .about-section{
-    background: url("/Images/photo-of-man-running-during-daytime-2803158.jpg") no-repeat left;
+    background: url("../Images/photo-of-man-running-during-daytime-2803158.jpg") no-repeat left;
     background-size: 55%;
     color: cornsilk;
     background-color: whitesmoke;
