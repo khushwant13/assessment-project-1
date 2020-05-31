@@ -1,0 +1,170 @@
+@font-face{
+    font-family: 'NeusHaas';
+    src: url(/Fonts/NeueHaasDisplay-Light.ttf);
+}
+body{
+    margin: 0;
+    padding: 0;
+    background-image: url(/Images/Black.jpg);
+    font-family: NeusHaas;
+    color: white;
+}
+ 
+header{
+    width: 100%;
+    height: 70px;
+    background-color: #282828;
+}
+ 
+header h1{
+    position: absolute;
+    padding: 3px;
+    float: left;
+    margin-left: 2%;
+    margin-top: 10px;
+    font-family: 'Alfa Slab One', cursive;
+    color: #39ca74;
+    border-bottom: none;
+}
+ 
+span{
+    color: #ffffff;
+}
+ 
+ul{
+    width: auto;
+    float: right;
+    margin-top: 8px;
+}
+ 
+li{
+    display: inline-block;
+    padding: 15px 30px;
+}
+ 
+a{
+    text-align: center;
+    color: #ffffff;
+    text-decoration: none;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.2vw;
+}
+ 
+a:hover{
+    color: #F0c330;
+    transition: 0.5s;
+}
+ 
+.slider{
+    overflow: hidden;
+    width: 95%;
+    height: 650px;
+    margin: 0px auto;
+}
+.slider figure{
+    position: relative;
+    width: 500%;
+    margin: 0;
+    left: 0;
+    animation: 20s slider infinite;
+}
+.slider figure img{
+    float: left;
+    width: 20%;
+}
+@keyframes slider{
+    0%{
+        left: 0%;
+    }
+    20%{
+        left: 0%;
+    }
+    25%{
+        left: -100%;
+    }
+    45%{
+        left: -100%;
+    }
+    50%{
+        left: -200%;
+    }
+    70%{
+        left: -200%;
+    }
+    75%{
+        left: -300%
+    }
+    95%{
+        left: -300%;
+    }
+    100%{
+        left: -400%;
+    }
+}
+.products{
+    margin: 0px auto;
+    width: 95%;
+}
+.products h1{
+    color: #6ab8ee;
+    border-bottom: solid 3px red;
+    font-weight: bolder;
+    font-size: 50px;
+}
+.list{
+    display: flex;
+    margin-top: 80px;
+    flex-wrap: wrap;
+}
+#img1{
+    margin-top: 60px;
+    margin-left: 125px;
+    height: 200px;
+    width: 200px;
+    position: relative;
+    transition: 0.6s ease;
+}
+.products .text{
+    border-bottom: solid 10px green;
+    font-family: Lobster;
+    font-size: 2em;
+    font-weight: 800;
+    margin-top: 0em;
+    text-align: center;
+    color: black;
+    position: relative;
+    background-color:white;
+    width: 200px;
+    bottom: 5px;
+    margin-left: 125px;
+}
+.products #img1:hover{
+    height: 215px;
+}
+.second_row{
+    display: flex;
+    margin: 0px auto;
+    position: relative;
+    right: 80px;
+}
+.pic{
+    background: rgba(255, 255, 255, 0.1);
+    border-top: solid black 10px;
+    display: flex;
+    margin-bottom: 0%;
+    margin-top: 100px;
+    padding-bottom: 0%;
+    padding-left: 150px;
+}
+.b1{
+    flex: 1;
+}
+.b2{
+    flex: 1;
+}
+.b3{
+    flex: 1;
+}
+.b4{
+    flex: 1;
+}
