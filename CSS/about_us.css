@@ -61,8 +61,11 @@ body{
     background-size: 55%;
     color: cornsilk;
     background-color: whitesmoke;
+    position: absolute;
     overflow: hidden;
     padding: 100px 0;
+    margine-left: 10px;
+    margin-top: 400px;
 }
 .inner-container{
     width: 55%;
